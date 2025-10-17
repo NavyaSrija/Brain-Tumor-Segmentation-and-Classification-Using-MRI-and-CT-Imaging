@@ -127,4 +127,47 @@ The Grad-CAM heatmaps reveal that the model focuses on tumor-affected regions, v
    ```bash
    git clone https://github.com/your-username/brain-tumor-segmentation-classification.git
    cd brain-tumor-segmentation-classification
+   ```
+   ---
+2. **Upload to Google Colab**
+
+3. **Open the .ipynb file in Colab.**
+
+Enable GPU Runtime: Runtime → Change runtime type → GPU.
+
+Install dependencies
+
+!pip install tensorflow keras opencv-python simpleitk efficientnet pytorch torchvision matplotlib numpy
+
+
+4. **Run all cells**
+
+Preprocessing → Segmentation → Classification → Grad-CAM
+
+Visualize results and metrics
+
+**📚 References**
+
+Menze et al., “The Multimodal Brain Tumor Image Segmentation Benchmark (BraTS)”, IEEE Trans. Med. Imaging, 2015.
+
+Bakas et al., “Identifying the Best Machine Learning Algorithms for Brain Tumor Segmentation”, Frontiers in Neuroscience, 2018.
+
+Isensee et al., “nnU-Net: Self-Adapting Framework for U-Net-Based Segmentation”, Nature Methods, 2021.
+
+Tan & Le, “EfficientNet: Rethinking Model Scaling for CNNs”, ICML, 2019.
+
+**🧭 Future Work**
+
+Integrate multimodal fusion (MRI + CT)
+
+Apply 3D transformer-based models for improved segmentation
+
+Clinical validation using real hospital datasets
+
+**👩‍💻 Author**
+
+Navya Srija
+Master’s in Computer Science, Southern Illinois University Edwardsville
+📧 navyasrija77@gmail.com
+
 
