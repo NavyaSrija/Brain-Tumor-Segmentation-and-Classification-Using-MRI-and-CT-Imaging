@@ -146,6 +146,8 @@ Preprocessing → Segmentation → Classification → Grad-CAM
 
 Visualize results and metrics
 
+---
+
 **📚 References**
 
 Menze et al., “The Multimodal Brain Tumor Image Segmentation Benchmark (BraTS)”, IEEE Trans. Med. Imaging, 2015.
@@ -156,6 +158,8 @@ Isensee et al., “nnU-Net: Self-Adapting Framework for U-Net-Based Segmentation
 
 Tan & Le, “EfficientNet: Rethinking Model Scaling for CNNs”, ICML, 2019.
 
+---
+
 **🧭 Future Work**
 
 Integrate multimodal fusion (MRI + CT)
@@ -163,6 +167,8 @@ Integrate multimodal fusion (MRI + CT)
 Apply 3D transformer-based models for improved segmentation
 
 Clinical validation using real hospital datasets
+
+---
 
 **👩‍💻 Author**
 
